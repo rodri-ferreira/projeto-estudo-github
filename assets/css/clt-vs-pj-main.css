@@ -1,0 +1,173 @@
+
+
+/* fim header inicio calculadora */
+
+.container {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    color: var(--cor-verde-primario);
+}
+
+.calculadora {
+    padding: 20px 20px 0 20px;
+}
+
+.container-form-celula {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form-celula label {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.container-form-celula input {
+    height: 30px;
+    padding-left: 10px;
+    width: 270px;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 2px solid var(--cor-preto);
+}
+
+.container-form {
+   display: flex;
+   gap: 30px;
+   margin-top: 20px;
+   
+}
+
+.btn-calcular {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--cor-verde-primario);
+    color: var(--cor-branco);
+    cursor: pointer;
+}
+
+.secao-manual {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.secao-manual h2 {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--cor-verde-secundario);
+}
+
+.secao-manual span {
+    font-weight: bold;  
+    color: var(--cor-verde-secundario)
+}
+
+.secao-manual h3 {
+    padding:  20px 0px;
+    margin-left: 20px;   
+}
+
+.secao-manual p {
+    line-height: 2;
+}
+
+.secao-manual ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.secao-manual li {
+    line-height: 2;
+}
+
+.btn-home {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+ 
+}
+
+.btn-voltaraoinicio, .btn-todosartigos {
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-branco);
+    background-color: var(--cor-verde-primario);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* fim manual inicio rodapé */
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.secao-rodape {
+    width: 100%;
+    background-color: var(--cor-verde-primario);
+    padding: 10px 0px;
+   
+}
+
+.secao-rodape img {
+    width: 130px;
+}
+
+footer .copy {
+    margin: 10px;
+    font-size: 12px;
+}
+
+.copy a {
+    text-decoration: none;
+    color: var(--cor-preto);
+}
+
+
+@media (max-width: 992px) {
+    .container-form{
+        flex-direction: column;
+    }
+
+    .container-form-celula input {
+        width: 100%;
+    }
+
+    .calculadora {
+        width: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    .container-form{
+        flex-direction: column;
+    }
+
+    .container-form-celula input {
+        width: 100%;
+    }
+
+    .calculadora {
+        width: 90%;
+    }
+}

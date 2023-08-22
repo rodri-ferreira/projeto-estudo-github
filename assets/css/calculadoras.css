@@ -1,0 +1,187 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.calculadora {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: -15px;
+}
+
+input {
+    font-size: 18px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 2px solid var(--cor-preto);
+}
+
+.btns {
+    margin: 0 auto;
+}
+
+.calcular  {
+    margin-right: 100px;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--cor-verde-primario);
+    color: var(--cor-branco);
+    cursor: pointer;
+}
+
+.limpar {
+    border: 2px solid var(--cor-verde-primario);
+    border-radius: 20px;
+    background-color: var(--cor-branco);
+    padding: 8px 35px; 
+    cursor: pointer;
+}
+
+#mensagem {
+    background-color: rgb(248, 248, 161);
+    text-align: center;
+}
+
+/* fim calculadora inicio manual */
+
+.secao-manual {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--cor-verde-secundario);
+}
+
+span {
+    font-weight: bold;  
+    color: var(--cor-verde-secundario)
+}
+
+h3 {
+    padding:  20px 0px;
+    margin-left: 20px;   
+}
+
+p {
+    line-height: 2;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    line-height: 2;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.btn-home {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.btn-voltaraoinicio, .btn-todosartigos {
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-branco);
+    background-color: var(--cor-verde-primario);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* fim manual inicio rodapé */
+
+.secao-rodape {
+    background-color: var(--cor-verde-primario);
+    padding: 10px 0px;
+}
+
+.secao-rodape img {
+    width: 130px;
+}
+
+footer .copy {
+    margin: 10px;
+    font-size: 12px;
+}
+
+.copy a {
+    text-decoration: none;
+    color: var(--cor-preto);
+}
+
+
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .calculadora {
+       margin-top: 100px;
+   }
+
+   h1 {
+       font-size: 25px;
+       text-align: center;
+   }
+
+   form, .secao-manual {
+    width: 90%;
+   }
+
+   .btns {
+        display: flex;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .btn-home {
+        gap: 10px;
+    }
+
+    .btn-home a {
+        font-size: 12px;
+    }
+}
+
+

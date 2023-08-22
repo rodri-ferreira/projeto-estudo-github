@@ -1,0 +1,436 @@
+.secao-inicio {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 90px;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-inicio {
+    width: 40%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.text-inicio {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 50px;
+
+}
+
+.text-inicio h1 {
+    font-size: 60px;
+    text-align: center;
+    color: var(--cor-verde-secundario);
+}
+
+.text-inicio p {
+    width: 90%;
+    font-size: 18px;
+    text-align: justify;
+    color: var(--cor-verde-secundario);
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+.btn-inicio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.btn-inicio .btn-meajude {
+    text-decoration: none;
+    color: var(--cor-verde-primario);
+    border: 1px solid var(--cor-verde-primario);
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.btn-inicio .btn-sobrenos {
+    text-decoration: none;
+    color: var(--cor-verde-primario);
+}
+
+/* fim principal 
+inicio ferramentas */
+
+.secao-ferramentas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: var(--cor-verde-primario);
+}
+
+#wave {
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.secao-ferramentas h2 {
+    text-align: center;
+    font-size: 40px;
+    color: var(--cor-branco);
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+
+.btn-maisferramentas {
+    margin-top: 65px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-verde-primario);
+    background-color: var(--cor-branco);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+/* fim ferramentas 
+
+inicio blog */
+.secao-blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.secao-blog h2 {
+    font-size: 40px;
+    color: var(--cor-verde-primario);
+    padding: 20px 0px;
+}
+
+.artigos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.artigo {
+    padding: 10px;
+    width: 25%;
+    max-width: 250px;
+    border-radius: 15px;
+}
+
+.artigo img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.artigo h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.artigo p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.artigo a {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+    color: var(--cor-preto);
+}
+
+.btn-todosartigos {
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-branco);
+    background-color: var(--cor-verde-primario);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+/* fim artigos 
+
+inicio contato */
+.secao-contato {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.formulario {
+    width: 50%;
+}
+
+.formulario h2 {
+    text-align: center;
+    font-size: 40px;
+    color: var(--cor-verde-primario);
+    margin: 20px 0px;
+}
+
+.formulario form {
+    margin: 0 auto;
+    /* width: 500px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.formulario input,
+textarea {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid var(--cor-verde-primario);
+}
+
+.formulario textarea {
+    resize: both;
+    max-width: 100%;
+    height: 90px;
+    overflow: hidden;
+}
+
+.formulario button {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--cor-verde-primario);
+    color: var(--cor-branco);
+    cursor: pointer;
+}
+
+.redes-sociais {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.redes-sociais i {
+    font-size: 60px;
+    color: var(--cor-verde-secundario);
+}
+
+
+@media screen and (max-width: 992px) {
+    /*inicio*/
+    .img-inicio {
+        width: 300px;
+    }
+
+    .text-inicio {
+        padding: 0px;
+    }
+
+    .text-inicio h1 {
+        font-size: 30px;
+    }
+
+    .text-inicio p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .btn-inicio {
+        font-size: 14px ;
+    }
+    /*inicio*/
+
+    /*ferramentas*/
+    .secao-ferramentas h2 {
+        font-size: 30px;
+        margin: 10px 0px;
+    }
+
+    .ferramentas {
+        margin: 10px 0px;
+        gap: 20px;
+    }
+
+    .ferramenta {
+        width: 160px;
+        height: 160px;
+    }
+
+    .ferramenta img {
+        width: 65px;
+        margin-bottom: 25px;
+    }
+
+    .btn-maisferramentas {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    /*ferramentas*/
+
+    /*blog*/
+    .secao-blog h2 {
+        font-size: 30px;
+    }
+
+    .artigos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .artigo {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .btn-todosartigos {
+        margin-top: 30px;
+    }
+    /*blog*/
+
+    /*contato*/
+    .secao-contato {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .formulario h2 {
+        font-size: 30px;
+    }
+
+    .redes-sociais {
+        padding-top: 40px;
+    }
+    /*contato*/
+}
+
+@media screen and (max-width: 768px) {
+    /*inicio*/
+    .secao-inicio {
+        width: 100%;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .text-inicio {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .text-inicio p {
+        width: 90%;
+    }
+    /*inicio*/
+
+    /*ferramentas*/
+    .secao-ferramentas h2 {
+        font-size: 25px;
+    }
+
+    .ferramentas {
+        gap: 5px;
+    }
+
+    .ferramenta {
+        width: 130px;
+        height: 130px;
+        margin: 10px 5px;
+    }
+
+    .ferramenta img {
+        width: 60px;
+        margin-bottom: 15px;
+    }
+
+    .ferramenta p {
+        font-size: 11px;
+    }
+    /*ferramentas*/
+
+    /*Blog*/
+    .secao-blog h2 {
+        font-size: 25px;
+    }
+
+    .btn-todosartigos {
+        margin-top: 30px;
+    }
+    /*Blog*/
+
+    /*contato*/
+    .formulario h2 {
+        font-size: 25px;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+    /*contato*/
+}
+
+@media screen and (max-width: 576px) {
+
+    .secao-ferramentas h2 {
+        font-size: 25px;
+        margin: 10px 0px;
+    }
+
+    .ferramentas {
+        margin: 10px 0px;
+        gap: 5px;
+    }
+
+    .ferramenta {
+        width: 130px;
+        height: 130px;
+        margin: 10px 5px;
+    }
+
+    .ferramenta img {
+        width: 60px;
+        margin-bottom: 15px;
+    }
+
+    .ferramenta p {
+        font-size: 11px;
+    }
+
+    .btn-maisferramentas {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .btn-todosartigos {
+        margin-top: 30px;
+    }
+
+    .artigos{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/calculadoras.css">
+    <link rel="stylesheet" href="../assets/css/reset-root.css">
+    <link rel="stylesheet" href="../assets/css/header-footer.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="../assets/js/main.js" defer></script>
+    <script src="../assets/js/calculadora-salario-familia.js" defer></script>
+    <title>Quanto Ganho?</title>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html"><img src="../assets/img/quantoganhologo.svg" alt="Quanto ganho logo verde"></a>
+
+        <nav>
+            <div class="menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="/index.html">Home</a></li>
+                <li class="nav-item"><a href="/pages/ferramentas.html">Ferramentas</a></li>
+                <li class="nav-item"><a href="#blog">Blog</a></li>
+                <li class="nav-item"><a href="/pages/quem-somos.html">Quem somos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="titulo-pagina">
+        <h1>CALCULADORA SALÁRIO FAMÍLIA</h1>
+    </section>
+
+    <section class="calculadora">
+
+        <form action="">
+            <label for="valor"> Salário base:</label>
+            <input type="text" id="valor" autocomplete="off" maxlength="20" name="valor" required
+                placeholder="Valor do salário base">
+            <label for="dependentes"> Número de dependentes (Até 14 anos):</label>
+            <input type="number" id="dependentes" autocomplete="off" maxlength="20" name="dependentes">
+            <label for="valorSalarioFamilia"> Valor do Salário família:</label>
+            <input type="text" id="valorSalarioFamilia" autocomplete="off" maxlength="20" name="valorSalarioFamilia"
+                disabled>
+
+            <p id="mensagem"></p>
+
+            <div class="btns">
+                <button class="calcular">Calcular</button>
+                <button class="limpar">Limpar</button>
+            </div>
+
+        </form>
+    </section>
+
+    <section class="secao-manual">
+        <h2> Manual de Utilização da Calculadora de Salário Família</h2>
+
+        <p>Bem-vindo ao Manual de Utilização da Calculadora de Salário Família! Este guia foi elaborado para ajudar
+        você a compreender e utilizar efetivamente a calculadora, a fim de calcular o valor do benefício de Salário
+        Família a que você tem direito. O Salário Família é um benefício pago a trabalhadores com filhos menores de
+        idade, visando auxiliar nas despesas relacionadas à criação dos filhos. Siga os passos abaixo para utilizar a
+        calculadora:</p>
+
+        <h3><span>Passo 1:</span> Coletando informações</h3>
+
+        <p>Antes de começar a utilizar a calculadora, certifique-se de ter todas as informações necessárias em mãos:</p>
+
+        <ul>
+            <li>Número de filhos menores de idade.</li>
+            <li>Renda bruta mensal do trabalhador.</li>
+        </ul>
+
+        <h3><span>Passo 2:</span> Acesso à Calculadora</h3>
+
+        <p>Acesse a calculadora através do site ou aplicativo fornecido pela instituição responsável pelo pagamento do
+            Salário Família.</p>
+
+        <h3><span>Passo 3:</span> Preenchendo os Dados</h3>
+
+        <p>Informe o número de filhos menores de idade que você possui.
+            Insira a renda bruta mensal do trabalhador. Essa renda é o valor total recebido antes de quaisquer deduções.
+        </p>
+
+        <h3><span>Passo 4:</span> Processamento e Resultados</h3>
+
+        <p>Após preencher os dados necessários, clique no botão "Calcular" ou equivalente. A calculadora processará as
+            informações e apresentará os seguintes resultados:</p>
+
+        <p><span>Valor do Benefício:</span> A calculadora exibirá o valor estimado do benefício de Salário Família ao
+            qual você tem direito com base nas informações fornecidas.</p>
+
+        <h3><span>Passo 5:</span> Interpretação dos Resultados</h3>
+
+        <p><span>Valor do Benefício:</span> O valor apresentado é uma estimativa do benefício de Salário Família que
+            você pode receber com base na sua renda e no número de filhos menores. Lembre-se de que esse valor pode
+            variar dependendo de políticas governamentais e regulamentações vigentes.</p>
+
+        <h3><span>Passo 6:</span> Considerações Finais</h3>
+
+        <p>Verificação de Informações: Certifique-se de que todas as informações inseridas estejam corretas antes de
+            considerar o valor do benefício como definitivo.</p>
+
+        <p><span>Atualizações e Mudanças:</span> Lembre-se de que as regras e regulamentações referentes ao Salário
+            Família podem mudar ao longo do tempo. Portanto, verifique regularmente se há atualizações nas políticas que
+            possam impactar o cálculo do benefício.</p>
+
+        <p><span>Contato com Especialistas:</span> Se você tiver dúvidas ou preocupações específicas sobre o Salário
+            Família ou seu cálculo, considere entrar em contato com especialistas em direito trabalhista ou os órgãos
+            competentes responsáveis pelo benefício em seu país.</p>
+    </section>
+
+    <div class="btn-home">
+        <a class="btn-voltaraoinicio" href="#">Voltar a calculadora</a>
+        
+        <a href="#" class="btn-todosartigos">Todas ferramentas</a>
+    </div>
+
+    <footer>
+        <section class="secao-rodape">
+            <a href="/index.html"><img src="../assets/img/quantoganhologobranco.svg" alt=""></a>
+        </section>
+
+        <div class="copy">
+            <p>&copy; 2023 - Desenvolvido por <a href="">Rodrigo</a> & <a href="">Gease</a> - <a href="">Sloth
+                    Marketing Digital</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+    <script>$('#valor').mask('000.000.000.000.000,00', { reverse: true });</script>
+
+</body>
+
+</html>
